@@ -14,11 +14,24 @@ body {
     border: solid pink 7px;
 }
 
-.score-box {
+.score-box-home {
+    text-align: center;
+}
+.score-box-guest {
     text-align: center;
 }
 
-.number-box {
+.number-box-home {
+    height: 80px;
+    width: 100px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 16px;
+}
+.number-box-guest {
     height: 80px;
     width: 100px;
     background-color: black;
@@ -63,7 +76,36 @@ body {
     height: 30px;
     width: 30px;
     font-weight: bold;
+}
 
+#homeT {
+    background-color: #182042;
+    color: white;
+    border: white solid 2px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+}
+
+#homeTh {
+    background-color: #182042;
+    color: white;
+    border: white solid 2px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+}
+
+#homeO {
+    background-color: #182042;
+    color: white;
+    border: white solid 2px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
 
 }
+ 
+ 
+ 
 
